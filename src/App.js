@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ListContacts from './ListContacts';
+import PropTypes from 'prop-types';
 
 class App extends Component {
   state = {
@@ -43,5 +44,6 @@ class App extends Component {
     );
   }
 }
+
 
 export default App;
